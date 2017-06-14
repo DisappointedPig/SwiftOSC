@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "SwiftOSC"
   s.version      = "1.0.0"
-  s.summary      = "SwiftOSC is a Open Sound Control client and server framework for Swift 3.."
+  s.summary      = "SwiftOSC is a Open Sound Control client and server framework for Swift 3."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+  SwiftOSC is a Open Sound Control client and server framework for Swift 3.
                    DESC
 
-  s.homepage     = "http://EXAMPLE/SwiftOSC"
+  s.homepage     = "http://www.disappointedpig.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = { :type => "CRAPL", :file => "CRAPL-LICENSE.txt" }
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
